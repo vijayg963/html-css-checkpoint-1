@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* this is custom css */
+
+
+body{
+    text-align: center;
+    line-height: 20px;
+}
+.home{
+    font-size: 25px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: green;
+}
+.blog{
+    margin: 0 8px;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+header{
+    background-color:#0A204C;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    font-size: 36px;
+    margin: 40px;
+    line-height: 30px;
+}
+h2{
+    font-size: 30px;
+    margin: 50px;
+}
+.shadow{
+    width: 150px;
+    height: 150px;
+    background-color:#99D8CA;
+    outline: 5px black solid;
+    border: 10px #5873E2 solid;
+    box-shadow:0 0 0 20px #8BEDA9 ;
+    border-radius: 1px;
+    display: inline-table;
+    margin-bottom: 40px;
+}
+.honda-a{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #99D8CA;
+    display: inline-block;
+}
+.dot{
+    margin: 15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+hr{
+    width: 750px;
+    border-top:3px dotted;
+    height:1px;
+    color: rgb(170, 170, 170);
+    margin: 40px auto;
+}
+.big-container-1{
+    width: 660px;
+    border: 2px black solid;
+    display: inline-flex;
+}
+.big-container-2{
+    width: 660px;
+    border: 2px black solid;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+.small-box{
+    width: 200px;
+    height: 180px;
+    background-color:#DAE0FA;
+    margin: 10px;       
+}
+.small-border{
+    width: 200px;
+    height: 180px;
+    background-color:#DAE0FA;
+    margin: 10px;
+    border: 2px black solid;
+}
+.honda-b{
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+.honda-c{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #8BEDA9;
+    display: inline-block;
+}
+.honda-d{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color:#5873E2 ;
+    display: inline-block;
+}
+
+/* blog css */
+body{
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.article1{
+    width: 1200px;
+    height: 400px;
+    display: inline;
+}
+img{
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+}
+.hero-1{
+    margin: 50px 0;
+}
+.hero-2{
+    display: inline-block;
+    width: 500px;
+    height: 350px;
+    vertical-align: top;
+    margin-left: 50px;
+    text-align: left;
+}
+h4{
+    font-size: 32px;
+    text-align: left;
+    padding: 8px;
+}
+.p1{
+    text-align: left;
+}
+button{
+    margin: 25px 0;
+    border-radius: 40px;
+    background-color: rgb(39, 189, 39);
+    padding: 12px 30px;
+    color: white;
+    border-width:0px;
+    
+}
+.article2{
+    width: 1200px;
+    height: 400px;
+    display: inline;
+    text-align: start;
+}
+.hero-b{
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    vertical-align: top;
+    margin-right: 25px;
+}
+.hero-c{
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    vertical-align: top;
+    margin-left: 25px;
+}
+a{
+    color:rgb(39, 189, 39);
+}
+
